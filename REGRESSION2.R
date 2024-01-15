@@ -1,4 +1,4 @@
-Student ID-2309839
+
 Rscript
 
 ###Install packages####
@@ -162,7 +162,7 @@ ols_vif_tol(skmodel2)
 # Perform the Durbin-Watson test
 durbinWatsonTest <- dwtest(skmodel2)
 
-# Print the result
+# Print the result for the durbin-Watson
 durbinWatsonTest
 
 
